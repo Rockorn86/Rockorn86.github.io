@@ -1,72 +1,52 @@
 /* Fuente de Google */
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 
-
-
-
-  .item-a {
-    grid-area: header;
-    width: auto;
-    margin: 0;
-    padding: 0;
-    background-color: deepskyblue;
-  
-  
-
-  }
-  .item-b {
-    grid-area: main;
-    width:auto;
-    padding: 1.5%;
-    background-color:bisque;
-    font-family: 'Bree Serif', cursive;
-  }
-  .item-c {
-    grid-area: sidebar;
-    width:auto;
-    margin :0%;
-    padding: 0%;
-    background-color:bisque;
-    font-family: 'Unbounded', cursive;
+body 
+{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    text-align:center;
+    background-color:beige;
+    background-position:top left;
+    background-repeat:repeat;
 }
-  .item-d {
-    grid-area: footer;
-    background-color: bisque;
-    width:auto;
-    padding: 5%;
-  }
-  .item-e {
-    grid-area:auto;
-    background-color: bisque;
-    width:0;
-    padding: 0%;
-    visibility: hidden;
-  }
-  
- 
-  
-  .container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto;
-    grid-template-areas: 
-      "header header header header"
-      "main main . sidebar"
-      "footer footer footer footer";
-  }
 
-  .ImagenLogoEncabezado {
+.Centrador
+{
+    width:100%;    
+    margin:0px;
+    padding:0px 0px 0px 0px;
+    background-color:transparent;
+    text-align:center;
+    background-position:top center;
+    background-repeat:repeat-y;
+}
+
+.ContenedorPrincipal
+{
+	width: 900px;
+	position: relative;
+	margin: 0px auto 0px auto;
+	padding: 0px 0px 10px 0px;
+	background-color: deepskyblue;
+	text-align: left;
+	height: 180px;
+}
+
+.ImagenLogoEncabezado {
     display: block;
-    width: 272px;
+    width: 230px;
     height: 190px;
     margin: 0px;
     padding: 0px;
     float: left;
-    border-radius: 30px;
+    border-radius: 20px;
   }
 
-  
-.item-a h1{
+
+    
+.TituloPrincipal{
     text-align: right;
     width:60%;
     display:inline-block;
@@ -76,7 +56,7 @@
 
 }
 
-.item-a h2{
+.TituloSecundario{
     text-align: right;
     width:58%;
     display:inline-block;
@@ -85,34 +65,69 @@
     color:white;
 }
 
-
-
-ul {
-  padding-left: 2rem;
-  list-style-type: none;
+.MenuPrincipal
+{
+	width:100%;
+	height:45px;
+	margin:10px 0px 0px 0px;
+	padding:0px;
+	/*background-color:#ECE2C7;*/
+	text-align:center;
 }
 
-ul li {
-  padding-left: 2rem;
-  background-image: url('../imagenes/Estrella.png');
-  background-position: 0 0;
-  background-size: 1rem 1rem;
-  background-repeat: no-repeat;
+.MenuPrincipal li,
+.MenuPrincipal li a
+{
+	display:inline-block;
+	/*float:left;*/
+	padding:0px 20px 0px 20px;
+	margin:0px auto 0px auto;
+	height:45px;
+	line-height:30px;
 }
 
-p{
-  font-size:large;
+.MenuPrincipal li a
+{
+	font-family:'yanone_kaffeesatzregular';
+	font-size:25px;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-weight:normal;
+	margin:0px;
+	padding:0px;
+	color:#BEAA64;
+}
+
+.MenuPrincipal li a:hover
+{
+	color:#A60505;
+}
+
+.Encabezado,
+.Pie
+{
+    float:none;
+    position:relative;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    width:900px;
+    overflow:hidden;
+    background-color:aliceblue;
 }
 
 .Titulo{
-  text-decoration:underline;
-}
+    text-decoration:underline;
+  }
 
-a {
-  background-color: powderblue;
-  transition: background-color .5s;
-}
+  p{
+    font-size:large;
+    text-align: center;
+  }
 
-a:hover {
-  background-color: rgb(173, 23, 171);
+  .TextoDescripcion
+{
+	font-family:tahoma;
+	font-size:17px;
+	padding:30px 40px 0px 40px;
+    background-color:aliceblue;
 }

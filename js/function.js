@@ -1,7 +1,7 @@
 window.addEventListener("DOMContentLoaded",gmail)
 function gmail(){
-    var imgs = [" "];
-    var contacto = document.getElementById("contacto");
+
+    var contacto = document.getElementById("gmail");
  
       contacto.addEventListener("click",function(){
         alert("RodrigoLionelPerk@gmail.com");

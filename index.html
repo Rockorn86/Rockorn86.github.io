@@ -1,40 +1,36 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
     <title>Curriculum Vitae</title>
 </head>
 <body>
-  <script src="js/function.js"></script>
-    <section class="container">
-        <div class="item-a">
-            
+    <script src="js/function.js"></script>
+    <div class="Centrador">
+        <div class="ContenedorPrincipal">
             <img src="https://imgur.com/xm8BU2y.png" class="ImagenLogoEncabezado" alt="ImagenCV">
-            <h1 class="item-a h1">Rodrigo Lionel Perk</h1>
-            <h2 class="item-a h2">Curriculum vitae</h2>
-            <img class="item-a icono" src="https://i.imgur.com/GVUBi6u.png" alt="cv" height="50px" width="50px" >
+            <h1 class="TituloPrincipal">Rodrigo Lionel Perk</h1>
+            <h2 class="TituloSecundario">Curriculum vitae</h2>
+            <img  src="https://i.imgur.com/GVUBi6u.png" alt="cv" height="30px" width="30px" >
 
-        </div>
-        <div class="item-b">
-            <a href="#"><h1 class="Titulo">Sobre mí</h1></a>
-            <p>Mi nombre es David Díaz y soy programador web.</p>
-            <p>Actualmente soy desarrollador web freelance. Si estás interesado en el desarrollo de cualquier aplicación para dispositivos móviles o web puedes contactar conmigo, ya seas una empresa o profesional. Seguro que juntos podremos poner en marcha el proyecto que tienes en mente.</p><p>¡Un saludo!</p>
-            
-            <a href="#"><h1 class="Titulo">Conocimientos</h1></a>
-            <ul class="values">
-              <li>HTML5</li>
-              <li>CSS3<span style="width: 85%;"></span></li>
-              <li>Javascript<span style="width: 80%;"></span></li>
-              <li>jQuery<span style="width: 80%;"></span></li>
-              <li>Android KitKat SDK<span style="width: 95%;"></span></li>
+            <div class="Encabezado">
+            <ul class="MenuPrincipal">
+                <li><a href="#sobremi">Sobre Mi</a></li>
+                <li><a href="#experiencias">Experiencias</a></li>
+                <li><a href="#formacion">Formación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
+        </div>
+            <div class="TextoDescripcion">
+                <a href="#"><h1 id="sobremi" class="Titulo">Sobre mí</h1></a>
+                Mi nombre es David Díaz y soy programador web.
+                Actualmente soy desarrollador web freelance. Si estás interesado en el desarrollo de cualquier aplicación para dispositivos móviles o web puedes contactar conmigo, ya seas una empresa o profesional. Seguro que juntos podremos poner en marcha el proyecto que tienes en mente.¡Un saludo!
 
-
-
-            <a href="#"><h1 class="Titulo">Experiencias</h1></a>
+                
+            <a href="#"><h1 id="experiencias" class="Titulo">Experiencias</h1></a>
             <ul>
                <li>
                 <h4><strong>Programador web</strong></h4>
@@ -55,8 +51,7 @@
                 <p>Analista/Programador en varios proyectos .Net para varias administraciones del Gobierno de Canarias realizando labores de desarrollo y mantenimiento de aplicaciones.</p>
               </li>
             </ul>
-          
-            <a href="#"><h1 class="Titulo">Formación</h1></a>
+            <a href="#"><h1 id="formacion" class="Titulo">Formación</h1></a>
             <ul>
               <li>
                 <h4><strong>Curso de Diseño Web con CSS3</strong></h4>
@@ -84,15 +79,11 @@
                 <span>2013</span>
               </li>
             </ul>
-        </div>
-        <div class="item-c">
-          
-        </div>
-        <div class="item-d">
-          <a href="#"><h1 class="Titulo">Contacto</h1></a>
+
+            <a href="#"><h1 id="contacto" class="Titulo">Contacto</h1></a>
           <table border="0" bordercolor="black">
             <tr>
-              <td><div id="contacto"><img class="social" src="https://imgur.com/FyuhhGf.png" alt="Gmail" width="60px" heigth="60px"></div></td>
+              <td><div id="gmail"><img class="social" src="https://imgur.com/FyuhhGf.png" alt="Gmail" width="60px" heigth="60px"></div></td>
               <td><div id="contactouno"><img class="social" src="https://imgur.com/kouWDG0.png" alt="LinkedIn" width="60px" heigth="60px"></div></td>
               <td><div id="contactodos"><img class="social" src="https://imgur.com/PXBh6dj.png" alt="Twitter" width="60px" heigth="60px"></div></td>
               <td><div id="contactotres"><img class="social" src="https://imgur.com/jKIJuCJ.png" alt="Facebook" width="60px" heigth="60px"></div></td>
@@ -100,7 +91,14 @@
             </tr>
           </table>
         </div>
+            </div>
+            
+        </div>
 
-      </section>
+
+        
+        
+
+    </div>
 </body>
 </html>

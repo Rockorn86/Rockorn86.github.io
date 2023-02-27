@@ -131,3 +131,13 @@ body
 	padding:30px 40px 0px 40px;
     background-color:aliceblue;
 }
+
+.cambioColor 
+{
+    color:blue;
+}
+
+.cambioColor:hover 
+{
+    color:red;
+}
